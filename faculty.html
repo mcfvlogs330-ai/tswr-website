@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expertise Achievements | TSWR Armed Forces College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation Header -->
+    <header class="top-header">
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="College Logo">
+            <div class="logo-text">
+                <h2>TSWR Armed Forces College</h2>
+                <span>Empowering Women Leaders</span>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="uniforms.html">Institutional Attire</a></li>
+                <li><a href="faculty.html" class="active">Expertise Achievements</a></li>
+                <li><a href="activities.html">Activities (NCC/NSS)</a></li>
+                <li><a href="defensio.html">Wonders of Defensio</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Branding Section (Expertise Achievements with Varshini Photo) -->
+        <div
+            style="background: #0f172a; padding: 60px 20px; text-align: center; border-bottom: 5px solid #fbbf24; border-radius: 0 0 25px 25px; margin-bottom: 40px;">
+            <div
+                style="width: 140px; height: 140px; border-radius: 50%; border: 3px solid #fbbf24; margin: 0 auto 25px; overflow: hidden; background: white;">
+                <img src="images/Varshini photo.jpeg" alt="Varshini Photo"
+                    style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h1 style="color: #fbbf24; font-size: 2.5rem; margin: 10px 0; font-weight: 800; letter-spacing: 2px;">
+                Expertise Achievements</h1>
+            <p
+                style="color: white; font-style: italic; font-size: 1.4rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+                "Educators are the ladders that empower students to chase and achieve their highest dreams."
+            </p>
+        </div>
+
+        <section class="animate">
+            <h2 style="text-align: center; color: var(--primary); margin-bottom: 50px;">Our Distinguished Mentors</h2>
+
+            <div class="pillar-grid" style="max-width: 1100px; margin: 0 auto;">
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon">
+                        <img src="images/Varshini photo.jpeg" alt="Mentor" style="border-radius: 50%;">
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Our Founders & ADIs</h3>
+                        <p>Our faculty consists of highly experienced teachers and military personnel who treat students
+                            as their own. They provide the guidance needed to transform cadets into officers.</p>
+                    </div>
+                </div>
+
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 1.5rem; font-weight: 800;">
+                        Ph.D</div>
+                    <div class="pillar-info">
+                        <h3>Academic Excellence</h3>
+                        <p>Our academic mentors hold prestigious Ph.D. degrees and specialize in fostering a holistic
+                            learning environment that goes beyond textbooks.</p>
+                    </div>
+                </div>
+
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 1.5rem; font-weight: 800;">★
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Mentorship Philosophy</h3>
+                        <p>We believe in instilling critical thinking, leadership qualities, and a strong sense of
+                            discipline in every student, preparing them for the rigors of defense life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 TSWR Armed Forces Preparatory Degree College for Women. All Rights Reserved.</p>
+        </footer>
+    </main>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navMenu.classList.toggle('active');
+        });
+
+        document.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>

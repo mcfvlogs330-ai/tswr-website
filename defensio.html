@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Wonders of Defensio | TSWR Armed Forces College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation Header -->
+    <header class="top-header">
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="College Logo">
+            <div class="logo-text">
+                <h2>TSWR Armed Forces College</h2>
+                <span>Empowering Women Leaders</span>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="uniforms.html">Institutional Attire</a></li>
+                <li><a href="faculty.html">Expertise Achievements</a></li>
+                <li><a href="activities.html">Activities (NCC/NSS)</a></li>
+                <li><a href="defensio.html" class="active">Wonders of Defensio</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- The Defensio Code Branding (Top Section) -->
+        <div
+            style="background: #0f172a; padding: 60px 20px; text-align: center; border-bottom: 5px solid #fbbf24; border-radius: 0 0 25px 25px; margin-bottom: 40px;">
+            <div
+                style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #fbbf24; margin: 0 auto 25px; overflow: hidden; background: white;">
+                <img src="images/Defencelogo.jpeg" alt="Defence Logo"
+                    style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <h1 style="color: #fbbf24; font-size: 2.5rem; margin: 10px 0; font-weight: 800; letter-spacing: 2px;">The
+                Defensio Code</h1>
+            <p
+                style="color: white; font-style: italic; font-size: 1.4rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+                "To lead with honor, to serve with pride, and to break every barrier in our path."
+            </p>
+        </div>
+
+        <section class="animate">
+            <h2 style="text-align: center; color: var(--primary); margin-bottom: 50px;">Seven Wonders of Defensio</h2>
+
+            <div class="pillar-grid" style="max-width: 1100px; margin: 0 auto;">
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 2rem; font-weight: 800;">01
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Unwavering Discipline</h3>
+                        <p>Our cadets follow a rigorous schedule that instills timeless discipline and precision in
+                            every action.</p>
+                    </div>
+                </div>
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 2rem; font-weight: 800;">02
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Indomitable Courage</h3>
+                        <p>We foster the mental and emotional strength required to face any challenge with a brave
+                            heart.</p>
+                    </div>
+                </div>
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 2rem; font-weight: 800;">03
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Visionary Leadership</h3>
+                        <p>Through various roles and responsibilities, we shape cadets into leaders who inspire and
+                            command respect.</p>
+                    </div>
+                </div>
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 2rem; font-weight: 800;">04
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Elite Physical Fitness</h3>
+                        <p>Our comprehensive training ensures that every cadet is at the peak of physical capability and
+                            endurance.</p>
+                    </div>
+                </div>
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 2rem; font-weight: 800;">05
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Academic Excellence</h3>
+                        <p>We maintain high academic standards, ensuring our cadets are well-educated and intellectually
+                            sharp.</p>
+                    </div>
+                </div>
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 2rem; font-weight: 800;">06
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Impeccable Character</h3>
+                        <p>Honesty, integrity, and honor are the cornerstones of the character we build in our future
+                            officers.</p>
+                    </div>
+                </div>
+                <div class="pillar-card" style="cursor: default;">
+                    <div class="pillar-icon"
+                        style="background: var(--primary); color: var(--accent); font-size: 2rem; font-weight: 800;">07
+                    </div>
+                    <div class="pillar-info">
+                        <h3>Spirit of Service</h3>
+                        <p>We instill a deep-rooted sense of duty towards the nation, placing service above self in all
+                            aspects of life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 TSWR Armed Forces Preparatory Degree College for Women. All Rights Reserved.</p>
+        </footer>
+    </main>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navMenu.classList.toggle('active');
+        });
+
+        document.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>
